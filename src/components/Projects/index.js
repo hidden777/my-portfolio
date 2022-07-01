@@ -38,7 +38,7 @@ function Projects() {
                 <ProjectCard 
                     img={Hubfest}
                     title="Havells Hardware Hubfest"
-                    description="Worked with a few collabortors in a society project for the event called 'Havells Hardware Hubfest.'"
+                    description="Worked with a few collaborators in a society project for the event called 'Havells Hardware Hubfest.'"
                     isBlog="https://hubfest.ecelldtu.in/"
                     ghLink="https://github.com/theanuraaag/Hardware-HubFest"
                 />
