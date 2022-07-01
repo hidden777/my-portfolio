@@ -1,0 +1,80 @@
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px black;
+    background-color: none;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: context-menu;
+    transition: transform 200ms ease-in;
+    height: 120%;
+    width: 230%;
+    position: relative;
+    top: -15%;
+    color: white;
+    border: 5px solid black;
+
+    &:hover{
+      box-shadow: 0 20px 40px white;
+      transform: translateY(-5px);
+    }
+
+    &__image {
+      height: 65%;
+      width: 90%;
+      position: relative;
+      top: 5%;
+      left: 5%;
+      border-radius: 10%;
+    }
+  
+    &__title {
+        text-align: center;
+        font-size: 30px;
+    }
+  
+    &__description {
+        margin: 0;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .github_page{
+      position: relative;
+      top:-5%;
+      font-size: 44px;
+      text-decoration: none;
+      text-align: center;
+      background-color: white;
+      text-decoration: none;
+
+      &:hover{
+        background-color: black;
+      }
+    }
+  
+    // &__btn {
+    //   font-family: inherit;
+    //   font-weight: bold;
+    //   font-size: 1rem;
+    //   margin: 1rem;
+    //   border: 2px solid purple;
+    //   background: grey;
+    //   color: purple;
+    //   border-radius: 10%;
+    //   position: relative;
+    //   left: 10%;
+    //   top: -100%;
+    // }
+  
+    // &:hover {
+    //   transform: scale(1.02);
+    // }
+  
+    // &:hover &__btn {
+    //   background: purple;
+    //   color: white;
+    // }
+}
+  

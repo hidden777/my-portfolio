@@ -1,0 +1,19 @@
+.project-page{
+    .text-zone{
+        left: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+        top: 10% !important;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+        gap: 20%;
+        justify-content: center;
+        position: relative;
+        top: 35%;
+        left: -5%;
+        animation: fadeIn 1s 1s linear;
+        font-family: 'Finlandica', sans-serif;
+    }
+}

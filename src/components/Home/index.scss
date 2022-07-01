@@ -1,0 +1,54 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top:50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+    h1{
+        color: white;
+        font-size: 70px;
+        margin: 0;
+        font-family: 'Stick No Bills', sans-serif;
+        font-weight: 400;
+        img{
+            width: 100px;
+            height: auto;
+            margin-left: 20px;
+            margin-top: -25px;
+            position: relative;
+            top: 30px;
+            animation: rotateIn 0.8s 1.4s linear backwards;
+        }
+    }
+    h2{
+        color: white;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 17px;
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+    .flat-button{
+        color: yellow;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: 'Space Mono', monospace;
+        padding: 10px 18px;
+        border: 2px solid yellow;
+        float: left;
+        margin-top: 25px;
+        text-decoration: none;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: yellow;
+            color: black;
+        }
+    }
+}

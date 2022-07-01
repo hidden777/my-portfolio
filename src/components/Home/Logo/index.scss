@@ -1,0 +1,21 @@
+.logo-container{
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15%;
+    margin: auto;
+
+    .solid-logo-home{
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: -30%;
+        margin: auto;
+        width: 150%;
+        animation: zoomIn 1.5s 1.8s both;
+    }
+}
