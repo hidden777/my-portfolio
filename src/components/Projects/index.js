@@ -46,8 +46,8 @@ function Projects() {
                     img={Portfolio}
                     title="My Portfolio"
                     description="This is a Portfolio site, which sums up my skills, projects and other details."
-                    isBlog="localhost:3000"
-                    ghLink=""
+                    isBlog="https://hidden777-my-portfolio.netlify.app/"
+                    ghLink="https://github.com/hidden777/my-portfolio"
                 />
             </div>
     </div>
