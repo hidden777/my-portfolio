@@ -5,7 +5,7 @@ import './index.scss'
 import noteKeeper from "../../assets/images/Note-Keeper.png";
 import Loader from "react-loaders";
 import AnimatedLetters from '../AnimatedLetters';
-import Hubfest from '../../assets/images/hardware-hubfest.png';
+import Restaurant from '../../assets/images/restaurant.png';
 import Portfolio from '../../assets/images/Portfolio.png';
 
 function Projects() {
@@ -36,11 +36,11 @@ function Projects() {
                 />
 
                 <ProjectCard 
-                    img={Hubfest}
-                    title="Havells Hardware Hubfest"
-                    description="Worked with a few collaborators in a society project for the event called 'Havells Hardware Hubfest.'"
-                    isBlog="https://hubfest.ecelldtu.in/"
-                    ghLink="https://github.com/theanuraaag/Hardware-HubFest"
+                    img={Restaurant}
+                    title="Paradise Green Restaurant"
+                    description="Used React to make an interface for a restaurant app. Used styled components as the main styling option. Also used Routes to make a multipage website."
+                    isBlog="https://paradise-green-restaurant.netlify.app/"
+                    ghLink="https://github.com/hidden777/Paradise-Green-Restaurant"
                 />
                 <ProjectCard 
                     img={Portfolio}
